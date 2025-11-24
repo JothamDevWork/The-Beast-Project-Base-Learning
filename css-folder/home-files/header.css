@@ -1,0 +1,85 @@
+#himghtitle{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  background: linear-gradient(to bottom, rgba(0,0,0,100),90%, rgba(60,60,60,100));
+  margin-top: 20%;
+}
+body{
+  background-color: black;
+}
+#himg{
+ width: 100%;
+ height: auto;
+}
+
+#htitle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-110%);
+ -webkit-text-stroke: 1px white;
+  width: 100%;
+  
+  color: transparent;
+  font-size: 600%; 
+}
+
+
+@media (min-width:768px) {
+
+
+
+
+#htitle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-110%);
+ -webkit-text-stroke: 1px white;
+  width: 100%;
+  color: transparent;
+  font-size: 12rem;
+}
+}
+
+
+
+@media (min-width:1024px) {
+
+  #himghtitle{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  background: linear-gradient(to bottom, rgba(0,0,0,100),90%, rgba(60,60,60,100));
+  margin-top: 0;
+}
+
+#htitle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-110%);
+ -webkit-text-stroke: 1px white;
+  width: 100%;
+  color: transparent;
+  font-size: 16rem;
+}
+}
+
+@media (min-width: 1280px) {
+
+  
+  #htitle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-110%);
+ -webkit-text-stroke: 1px rgb(255, 255, 255);
+  width: 100%;
+  color: transparent;
+  font-size: 20rem;
+}
+}

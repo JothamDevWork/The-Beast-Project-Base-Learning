@@ -1,0 +1,31 @@
+
+body {
+  background: linear-gradient(
+    rgb(255, 255, 255) 0%,    /* top gray */
+    rgba(2, 2, 2, 0.25) 5%, /* blend starts */
+    rgba(0, 0, 0) 15%,     /* smooth fade into black */
+    rgb(0, 0, 0) 80%,       /* solid black center */
+    rgba(0, 0, 0) 90%,     /* fade out from black */
+    rgba(24, 24, 24, 0.25) 95%, /* blend into gray */
+    rgba(255, 255, 255) 100%  /* bottom gray */
+  );
+}
+#title_paragraph{
+position: absolute;
+top: 35%;
+left:10%;
+color: white;
+}
+
+#title{
+  font-size: 10rem;
+  margin: 0;
+  color: red;
+  
+}
+
+#paragraph{
+  margin: 0;
+  font-size: 5rem;
+  text-align: center;
+}

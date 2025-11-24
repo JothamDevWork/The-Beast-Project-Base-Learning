@@ -1,0 +1,156 @@
+#container{
+  display: flex;
+  flex-direction:column;
+  margin-top: 12rem;
+}
+
+#container{
+position: relative;
+}
+
+#shippinginfo{
+  display: none;
+  position: absolute;
+  top: 10%;
+  color: white;
+  left: 50%;
+}
+
+#shipping:hover{
+  display: none;
+  display: inline-block;
+  width: 50%;
+}
+#container:hover #shippinginfo{
+  display: block;
+}
+#shipping:hover #ship{
+  font-size: 2rem;
+}
+
+#shippinginfo{
+  padding: 10px;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.video {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+
+
+}
+
+body{
+  background: black;
+}
+
+.base{
+  display: flex;
+margin-top: 1rem;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+
+
+.titles {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  font-size: 4rem;
+  color: #ffffff;
+
+  /* GLASS EFFECT */
+  background: rgba(0, 0, 0, 0.1);  /* transparent white */
+  backdrop-filter: blur(1px);            /* blur behind it */
+  -webkit-backdrop-filter: blur(1px);    /* for Safari */
+  border-radius: 12px;
+  padding: 1rem;
+  border: 1px solid rgba(133, 133, 133, 0.4);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+#custocontainer{
+position: relative;
+}
+
+#custoinfo{
+  display: none;
+  position: absolute;
+  top: 10%;
+  color: white;
+  left: 50%;
+}
+
+#customization:hover{
+  display: none;
+  display: inline-block;
+  width: 50%;
+}
+#custocontainer:hover #custoinfo{
+  display: block;
+}
+#customization:hover #custotitle{
+  font-size: 2rem;
+}
+
+#custoinfo{
+  padding: 10px;
+  text-align: justify;
+  text-align-last: center;
+}
+
+
+
+
+#repaircontainer{
+position: relative;
+}
+
+#repairinfo{
+  display: none;
+  position: absolute;
+  top: 10%;
+  color: #ffffff;
+  left: 50%;
+}
+
+#repairing:hover{
+  display: inline-block;
+  width: 50%;
+}
+#repaircontainer:hover #repairinfo{
+  display:  block;
+}
+#repairing:hover #repair{
+  font-size: 2rem;
+}
+
+#repairinfo{
+  padding: 10px;
+  text-align: justify;
+  text-align-last: center;
+}
+
+
+
+#repaircontainer{
+position: relative;
+}
+
+
+.info{
+    background: rgba(0, 0, 0, 0.1);  /* transparent white */
+  backdrop-filter: blur(1px);            /* blur behind it */
+  -webkit-backdrop-filter: blur(1px);    /* for Safari */
+  border-radius: 12px;
+  padding: 1rem;
+  border: 1px solid rgba(133, 133, 133, 0.4);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
